@@ -25,15 +25,15 @@ html{
      display: flex;
      background-image: url(./image/image1.jpg);
      width: 100%;
-     height: 150px;
+     height: 100px;
      margin: 0;
      padding: 0;
     border-bottom: 1px solid rgb(2, 2, 46);
 }
 .navbar li{
      list-style-type: none;
-     margin-left: 120px;
-     margin-top: 60px;
+     margin-left: 100px;
+     margin-top: 40px;
 
 
 }
@@ -43,7 +43,7 @@ html{
      border-image: url(./image/image1.jpg);
      border-radius: 5px;
      text-decoration: none;
-     font-size: 25px;
+     font-size: 20px;
      color: rgb(2, 2, 39);
      font-weight: bold;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -86,7 +86,7 @@ html{
 
 /*=============MEDIA QUERY FOR NAVBAR==============================*/
 
-@media (max-width:413px){
+@media (max-width:415px){
 
 .navbar{
      display: none;
@@ -108,7 +108,7 @@ html{
      display: block;
      position: absolute;
      top: 16px;
-     left: 370px;
+     left: 360px;
      font-size: 20px;
 }
 #image{
@@ -165,7 +165,7 @@ html{
      overflow-y: hidden;/*----------------------------------------------------------------------------------------------------*/
 
   width: 100%;
-  height: 680px; 
+  height: 580px; 
   display: flex;  
   background-image: url(./image/image1.jpg);
   border-bottom: 2px solid rgb(2, 2, 47);
@@ -175,18 +175,18 @@ html{
     
      width: 50%;
      height: 100%;
-     padding-left: 200px;
-     padding-top: 220px;
+     padding-left: 160px;
+     padding-top: 150px;
 }
 
 .divh3{
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     font-size: 28px;
+     font-size: 25px;
 
 }
 
 #but2 a{
-     font-size: 23px;
+     font-size: 18px;
      border: 1px solid rgb(2, 2, 45);
      color:rgb(2, 2, 45);
      background-color:aliceblue;
@@ -205,7 +205,7 @@ html{
 
 
 #mywrk{
-     font-size: 22px;
+     font-size: 20px;
      padding-left: 10px;
      font-weight: bold;
      color: rgb(2, 2, 45);
@@ -221,9 +221,9 @@ html{
      padding-top: 60px;
      color: rgb(2, 2, 45);
      margin-left: -10px;
-     margin-top: 50px;
+     margin-top: 60px;
      width: 100%;
-     font-size: 25px;
+     font-size: 20px;
      font-weight: 100;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -239,28 +239,27 @@ html{
 .divh1{
       font-family: sans-serif;
      font-weight: bold;
-     font-size: 45px;
+     font-size: 40px;
 }
 
 .div4 img{
-    width: 570px;
+    width: 472px;
 
 }
 .quote{
      position: absolute;
       z-index: 1;
-       top: 730px;
-        left: 150px;
+       top: 556px;
+        left: 120px;
      
 }
 /* ==============================================THREEOPT=====================================
 ================================================================================================== */
 .threeopt{
      
-
-     top: 750px;
-     left: 1550px;
      position: absolute;
+     top: 600px;
+     left: 1200px;
      display: flex;
      
 
@@ -290,11 +289,12 @@ html{
 }
 /* ======MEDIA QUERYfor DIV2======== */
 
-@media (max-width:413px){
+@media (max-width:415px){
      .threeopt{
          
-  top: 65px;
-  left: 110px;
+  top: 60px;
+  left: 200px;
+  z-index: 2;
 }
 
 .quote{
@@ -311,7 +311,7 @@ html{
 .div3{
      width: 150px;
      padding-left: 20px;
-     margin-top: -160px;
+     margin-top: -100px;
 }
 
 .divh3{
@@ -338,7 +338,7 @@ html{
      font-size: 15px;
 }
 .div3 p{
-     margin-top: -50px;
+     margin-top: 10px;
 }
 
 .div4 img{
@@ -409,7 +409,7 @@ html{
 }
 /* ===========================media query for my clients
 ======================================================= */
-@media (max-width:413px){
+@media (max-width:415px){
 
 .myclients{
      margin-top: -40px;
@@ -466,11 +466,11 @@ html{
      padding-left: 10px;
 }
 #dsii2{
-     padding-left: 330px;
+     padding-left: 200px;
      
 }
 #dsii3{
-     padding-left: 370px;     
+     padding-left: 120px;     
 }
 
 .divsk{
@@ -490,14 +490,15 @@ html{
      font-weight: 1000;
 }
 #but5{
-     padding-left: 280px;
+     padding-left: 150px;
      font-size: 35px;
      color: rgb(2, 2, 46);
      font-family:Georgia, 'Times New Roman', Times, serif;
      font-weight: 1000;
 }
 #but6{
-     padding-left: 300px;
+     margin-top: -20px;
+     padding-left: 170px;
      font-size: 35px;
      color: rgb(2, 2, 46);
      font-family:Georgia, 'Times New Roman', Times, serif;
@@ -509,7 +510,7 @@ html{
 
      width: 80%;
      height: 200px;
-     margin-top: -50px;
+     margin-top: -20px;
      margin-left: 200px;
      display: flex;
 }
@@ -533,7 +534,7 @@ html{
      opacity: 0.8;
      width: 30% ;
      height: 80%;
-     margin-left: 50px;
+     margin-left: 10px;
 }
 .divl2:hover{
 
@@ -545,34 +546,34 @@ html{
 
      width: 30% ;
      height: 80%;
-     margin-left: 70px;
+     margin-left: 30px;
      opacity: 0.8;
 }
 
 .divl1 p{
      padding: 50px;
-     padding-top: 50px;
+     padding-top: 20px;
      font-size: 25px;
      font-family:'Times New Roman', Times, serif;
      color: rgb(3, 3, 66);
 }
 .divl2 p{
      padding: 50px;
-     padding-top: 50px;
+     padding-top: 20px;
      font-size: 25px;
      font-family:'Times New Roman', Times, serif;
      color: rgb(3, 3, 66);
 }
 .divl3 p{
      padding: 50px;
-     padding-top: 50px;
+     padding-top: 20px;
      font-size: 25px;
      font-family:'Times New Roman', Times, serif;
      color: rgb(3, 3, 66);
 }
 /* ===================media query for divsi=
 ================================================ */
-@media (max-width:413px){
+@media (max-width:415px){
 
 .divmyskill{
      height: 2260px;
@@ -582,11 +583,11 @@ html{
 }
 
 .divi2{
-     margin-left: -640px;
+     margin-left: -510px;
      margin-top: 130px;
 }
 .divi3{
-     margin-left:-1160px ;
+     margin-left:-90px ;
      margin-top: 130px;
 }
 
@@ -598,13 +599,13 @@ html{
 }
 #but5{
   position: absolute;
-  left: -180px;
+  left: -50px;
   margin-top: 190px;
 
 }
 #but6{
      position: absolute;
-     left: -200px;
+     left: -75px;
      margin-top: 365px;
 }
 
@@ -640,7 +641,7 @@ html{
 }
 
 .diveds1{
-     
+     margin-left: -70px;
      width: 450px;
      height: 100%;
 
@@ -689,17 +690,17 @@ html{
 
 .divhcj{
      border: 2px solid yellow;
-     width: 43%;
+     width: 45%;
      height: 450px;
      margin-top: -370px;
-     margin-left: 780px;
+     margin-left: 700px;
      background-image: url(./image/red.jpg);
 }
 
 .divhcj div{
      
-     margin-top: 80px;
-     margin-left: 25px;
+     margin-top: 100px;
+     margin-left: -20px;
      height: 70%;
 }
 
@@ -716,8 +717,8 @@ html{
      
 
      position: absolute;
-     top: 1570px;
-     left: 730px;
+     top: 1470px;
+     left: 660px;
 }
 .sk img{
  width: 150px;
@@ -726,10 +727,10 @@ html{
 .uline{
      
    
-
+  
      position: absolute;
-     top: 1930px;
-     left: 1400px;
+     top: 1810px;
+     left: 1200px;
 
 }
 .uline img{
@@ -737,7 +738,7 @@ html{
 }
 
 /*==========================media query for diveds==============*/
-@media (max-width:413px){
+@media (max-width:415px){
 
   
   
@@ -774,28 +775,28 @@ html{
           padding: 2px;
      }
      .sk{
-          margin-top: 370px;
+          margin-top: 500px;
           left: -5px;
      }
      .uline{
-          margin-top: 370px;
-          left: 100px;
+          margin-top: 540px;
+          left: 150px;
      }
 }
 /* ==================================DOS=======================================
 ============================================================================== */
 .divdos{
-     
-     margin-left: 170px;
-     margin-top: 200px;
+
+     margin-left: 150px;
+     margin-top: 150px;
      width: 80%;
-     height: 150px;
+     height: 100px;
 }
 
 .divdos a{
-     margin-top: 100px;
+     margin-top: 50px;
      margin-left: 50px;
-     font-size: 80px;
+     font-size: 65px;
      font-weight: bold;
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      margin-left: 300px;
@@ -805,9 +806,13 @@ html{
 
      margin-left: -2px;
 }
+
+#down2{
+     margin-left: 260px;
+}
 #down3{
 
-     margin-left: 320px;
+     margin-left: 270px;
 }
 
 .divdos1{
@@ -816,39 +821,39 @@ html{
      width: 80%;
      height: 120px;
      margin-left: 170px;
-     margin-top: -160px;
+     margin-top: -105px;
      display: flex;
 
 }
 
 .divdos1 span pre{
 
-     font-size: 35px;
+     font-size: 30px;
      font-weight: 800;
      font-family:Georgia, 'Times New Roman', Times, serif;
      opacity: 0.8;
 }
 
 #d1{
-margin-left: 116px;
+margin-left: 70px;
 margin-top: -17px;
 }
 
 
 #d2{
-     margin-left: 105px;
+     margin-left: 90px;
      margin-top: -17px;
      }
 
      
 #d3{
-     margin-left: 183px;
+     margin-left: 140px;
      margin-top: -17px;
      }
 /* =================================media query for divdos========
 ================================================================== */
 
-@media (max-width:413px){
+@media (max-width:415px){
 
   #down1{
      position: absolute;
@@ -858,20 +863,20 @@ margin-top: -17px;
   }
   #down2{
      position: absolute;
-     left: -260px;
+     left: -230px;
      margin-top: 70px;
      font-size: 70px;
   }
   #down3{
      position: absolute;
-     left: -310px;
+     left: -265px;
      margin-top: 205px;
      font-size: 70px;
   }
 
   #d1{
      position: absolute;
-     left: 15px;
+     left: 50px;
      margin-top: -70px;
   }
   #d1 pre{
@@ -879,7 +884,7 @@ margin-top: -17px;
   }
   #d2{
      position: absolute;
-     left: 15px;
+     left: 10px;
      margin-top: 70px;
   }
   #d2 pre{
@@ -887,7 +892,7 @@ margin-top: -17px;
   }
   #d3{
      position: absolute;
-     left: -55px;
+     left: -30px;
      margin-top: 205px;
   }
   #d3 pre{
@@ -903,7 +908,7 @@ margin-top: -17px;
 
     display: flex;
      width: 100%;
-     height: 850px;
+     height: 680px;
      background-image: url(./image/yellow.jpg);
      border-bottom: 1px solid rgb(2, 2, 46);
      
@@ -912,7 +917,7 @@ margin-top: -17px;
    .shiv{
      
      width: 50%;
-     height: 800px;
+     height: 100%px;
      margin-top: 100px;
      
    }  
@@ -921,40 +926,40 @@ margin-top: -17px;
 
 
      position: absolute;
-     top: 2600px;
+     top: 2300px;
      left: 10px;
 
  }
  .leftdot img{
-     width: 200px;
+     width: 150px;
  }
  .rightdot{
      
      
 
      position: absolute;
-     top: 3200px;
-     left: 1550px;
+     top: 2770px;
+     left: 1270px;
 
  }
  .rightdot img{
-     width: 250px;
+     width: 150px;
  }
    .img3{
-     margin-top: 5px;
+    margin-top: 30px;
      margin-left: 100px;
    }
 
    .img3 img{
 
-     width: 750px;
+     width: 550px;
    }
   
    .about{
-     
+     margin-left: -60px;
      width: 50%;
      height: 800px;
-     margin-top: 200px;
+     margin-top: 150px;
      
    }  
 
@@ -964,8 +969,8 @@ margin-top: -17px;
 }
 #al1{
  color: red;
- font-size: 25px;
- margin-top: -12px;
+ font-size: 20px;
+ margin-top: -10px;
  font-weight: bold;
 }
 #al2{
@@ -974,13 +979,13 @@ margin-top: -17px;
      color: red;
      margin-left: 10px;
      margin-right: 10px;
-     font-size: 25px;
+     font-size: 20px;
     }
  #al3{
  font-weight: bold;
 
      color: red;
-     font-size: 25px;
+     font-size: 20px;
      margin-top: -12px;
     }
 
@@ -990,13 +995,13 @@ margin-top: -17px;
      margin-top: 7px;
      color: rgb(2, 2, 46);
      font-weight: bold;
-     font-size: 70px;
+     font-size: 60px;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .abt3 pre{
      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     font-size: 30px;
+     font-size: 25px;
      font-weight: 300;
      opacity: 0.8;
      margin-left: -90px;
@@ -1004,14 +1009,15 @@ margin-top: -17px;
      color: rgb(2, 2, 46);
 }
 .abt4{
+     margin-left: -20px;
 
-     margin-top: 80px;
+     margin-top: 50px;
 }
 .abt4 span{
      
      background-color: rgb(2, 2, 45);
      padding: 20px;
-     font-size: 25px;
+     font-size: 20px;
      color: whitesmoke;
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      
@@ -1025,7 +1031,7 @@ margin-top: -17px;
 /*===============media query for about me============*/
 
 
-@media (max-width:413px){
+@media (max-width:415px){
 
 .img3 img{
      width: 350px;
@@ -1044,31 +1050,35 @@ margin-top: -17px;
      width: 300px;
 }
 .abt2{
-     margin-left: 115px;
+     margin-left: 185px;
 }
 .abt2 pre{
-     font-size: 40px;
+     font-size: 25px;
 }
 .abt3{
      margin-top: 80px;
-     margin-left: 35px;
+     margin-left: 60px;
 }
 .abt3 pre{
-     font-size: 15px;
+     font-size: 13.5px;
 }
 .abt4{
-     margin-left: 50px;
+     margin-left: 130px;
+}
+.abt4 span{
+     font-size: 15px;
+     padding: 10px;
 }
 
 .rightdot{
           left: -1px;
-          margin-top: -70px;
+          margin-top: 370px;
      }
      .rightdot img{
           width: 100px;
      }
      .leftdot{
-          margin-top: 1250px;
+          margin-top: 1350px;
           left: 290px;
      }
      .leftdot img{
@@ -1082,7 +1092,7 @@ margin-top: -17px;
      overflow-y: hidden;/*----------------------------------------------------------------------------------------------------*/
 
      width: 100%;
-     height: 800px;
+     height: 700px;
      display: flex;
      
 }
@@ -1094,12 +1104,13 @@ margin-top: -17px;
 }
 
 .taws1 img{
-     width: 570px;
-     margin-top: 120px;
-     margin-left: 280px;
+     width: 500px;
+     margin-top: 85px;
+     margin-left: 140px;
 }
 .taws2{
-     
+     margin-top: -90px;
+     margin-left: -50px;
      width: 50%;
      height: 100%;
      
@@ -1114,7 +1125,7 @@ margin-top: -17px;
 .tt1 p{
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      color: rgb(2, 2, 46);
-     font-size: 40px;
+     font-size: 35px;
      font-weight: bold;
 }
 
@@ -1127,7 +1138,7 @@ margin-top: -17px;
 .tt2 p{
      font-family: sans-serif;
      color: rgb(2, 2, 46);
-     font-size: 25px;
+     font-size: 23px;
      font-weight: 500;
      opacity: 0.7;
 }
@@ -1158,20 +1169,21 @@ margin-top: -17px;
 ====================================================================== */
 
 
-@media (max-width:413px){
+@media (max-width:415px){
 .taws{
      height: 1200px;
 }
 .taws1{
-     margin-top: -50px;
-     margin-left: -250px;
+     margin-top: 20px;
+     margin-left: -100px;
 }
      .taws1 img{
           width: 350px;
      }
 
      .taws2{
-          margin-left: 80px;
+          margin-left: -80px;
+          margin-top: 50px;
      }
      .tt1{
           width: 350px;
@@ -1204,7 +1216,7 @@ margin-top: -17px;
      overflow-y: hidden;/*----------------------------------------------------------------------------------------------------*/
 
    width: 100%;
-  height: 530px;
+  height: 450px;
   display: flex;
   
 
@@ -1251,7 +1263,7 @@ margin-top: -17px;
      overflow-y: hidden;/*----------------------------------------------------------------------------------------------------*/
 
      width: 100%;
-    height: 530px;
+    height: 450px;
     display: flex;
     margin-top: 30px;
   
@@ -1313,16 +1325,16 @@ margin-top: -17px;
 /* ===============================media q for portfolio=======
 =============================================================== */
 
-@media (max-width:413px){
+@media (max-width:415px){
 
 #portfa{
      width: 100%px;
-     height: 200px;
+     height: 150px;
 }
 
 .portfb{
      width: 100%;
-     height: 206px;
+     height: 156px;
 
 }
 
@@ -1347,7 +1359,7 @@ margin-top: -17px;
      color: red;
      justify-content: center;
      margin-top: 200px;
-     margin-left: 750px;
+     margin-left: 550px;
      font-size: 25px;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -1365,15 +1377,15 @@ margin-top: -17px;
   .few{
      
      margin-top: -30px;
-     margin-left: 570px;
-     font-size: 80px;
+     margin-left: 400px;
+     font-size: 70px;
      font-family:serif;
      color: rgb(2, 2, 46);
      font-weight: bold;
   }
 /* ===================================================media q for faq================
 ======================================================================== */
-@media (max-width:413px){
+@media (max-width:415px){
      .faq{
           margin-left: 50px;
      }
@@ -1391,16 +1403,16 @@ margin-top: -17px;
      margin-top: 60px;
      border-radius: 5px;
      width: 70%;
-     height: 120px;
+     height: 100px;
      background-color: rgb(2, 2, 46);
      
   }
 
   .bluebox1 p{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 40px;
+    padding: 30px;
     font-weight: bold;
   }
   .bluebox1 p label span{
@@ -1419,7 +1431,7 @@ margin-top: -17px;
      margin-top: 20px;
      border-radius: 5px;
      width: 70%;
-     height: 130px;
+     height: 120px;
      background-color: rgb(2, 2, 46);
      
   }
@@ -1441,15 +1453,15 @@ margin-top: -17px;
      margin-top: 20px;
      border-radius: 5px;
      width: 70%;
-     height: 120px;
+     height: 100px;
      background-color: rgb(2, 2, 46);
   }
 
   .bluebox2 p{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 40px;
+    padding: 30px;
     font-weight: bold;
   }
   .bluebox2 p label span{
@@ -1468,7 +1480,7 @@ margin-top: -17px;
      margin-top: 20px;
      border-radius: 5px;
      width: 70%;
-     height: 130px;
+     height: 120px;
      background-color: rgb(2, 2, 46);
   }
   .bluebox2a p{
@@ -1488,15 +1500,15 @@ margin-top: -17px;
      margin-top: 20px;
      border-radius: 5px;
      width: 70%;
-     height: 120px;
+     height: 100px;
      background-color: rgb(2, 2, 46);
   }
 
   .bluebox3 p{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 40px;
+    padding: 30px;
     font-weight: bold;
   }
   .bluebox3 p label span{
@@ -1515,7 +1527,7 @@ margin-top: -17px;
      margin-top: 20px;
      border-radius: 5px;
      width: 70%;
-     height: 130px;
+     height: 120px;
      background-color: rgb(2, 2, 46);
   }
   .bluebox3a p{
@@ -1535,15 +1547,15 @@ margin-top: -17px;
      margin-top: 20px;
      border-radius: 5px;
      width: 70%;
-     height: 120px;
+     height: 100px;
      background-color: rgb(2, 2, 46);
   }
 
   .bluebox4 p{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 40px;
+    padding: 30px;
     font-weight: bold;
   }
   .bluebox4 p label span{
@@ -1562,7 +1574,7 @@ margin-top: -17px;
      margin-top: 20px;
      border-radius: 5px;
      width: 70%;
-     height: 130px;
+     height: 120px;
      background-color: rgb(2, 2, 46);
   }
   .bluebox4a p{
@@ -1583,15 +1595,15 @@ margin-top: -17px;
      margin-top: 20px;
      border-radius: 5px;
      width: 70%;
-     height: 120px;
+     height: 100px;
      background-color: rgb(2, 2, 46);
   }
 
   .bluebox5 p{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 40px;
+    padding: 30px;
     font-weight: bold;
   }
   .bluebox5 p label span{
@@ -1610,7 +1622,7 @@ margin-top: -17px;
      margin-top: 20px;
      border-radius: 5px;
      width: 70%;
-     height: 130px;
+     height: 120px;
      background-color: rgb(2, 2, 46);
   }
   .bluebox5a p{
@@ -1626,7 +1638,7 @@ margin-top: -17px;
   }
   /* ============================MEDIA QUERY FOR BLUEBOX=
   ========================================================= */
-  @media (max-width:413px){
+  @media (max-width:415px){
 
      .bluebox1{
           width: 350px;
@@ -1721,7 +1733,7 @@ margin-top: -17px;
      overflow-y: hidden;/*----------------------------------------------------------------------------------------------------*/
 
      width: 100%;
-     height: 500px;
+     height: 400px;
      background-image: url(./image/image1.jpg);
      margin-top: 50px;
 }
@@ -1734,9 +1746,9 @@ margin-right: auto;
 }
 .imm p{
 
-     padding: 130px 0 0 0;
+     padding: 30px 0 0 0;
      color: rgb(2, 2, 46);
-     font-size: 70px;
+     font-size: 50px;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      font-weight: bold
 
@@ -1744,9 +1756,9 @@ margin-right: auto;
 
 
 .freelance span{
-     margin-top: -80px;
-     margin-left: 100px;
-     font-size: 30px;
+     margin-top: -90px;
+     margin-left: 50px;
+     font-size: 25px;
      padding: 10px;
      font-family:Georgia, 'Times New Roman', Times, serif;
      color: rgb(2, 2, 46);
@@ -1759,6 +1771,29 @@ margin-right: auto;
   cursor: pointer;
      background-color: rgb(2, 2, 46);
      color: white;
+}
+
+/* ==========================================media q for freelance===
+============================================================================= */
+
+@media (max-width:415px){
+
+     .freelance{
+          margin-top: -300px;
+          width: 100%;
+          height: 200px;
+     }
+     .imm p{
+          font-size: 40px;
+     }
+     .imm{
+          width: 300px;
+          margin-top: -50px;
+     }
+     .imm span{
+          margin-left: 60px;
+          font-size: 15px;
+     }
 }
 /* ========================================================blog=================
 ================================================================================= */
@@ -1773,10 +1808,10 @@ margin-right: auto;
 #blog{
      
      display: flex;
-     margin-top: 180px;
+     margin-top: 140px;
      margin-left: 180px;
      color: red;
-     font-size: 25px;
+     font-size: 20px;
      font-weight: 600;
      font-family:cursive;
 }
@@ -1799,7 +1834,7 @@ margin-right: auto;
      color: rgb(2, 2, 46);
      font-weight: bold;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     font-size: 80px;
+     font-size: 60px;
 
 }
 
@@ -1815,7 +1850,7 @@ margin-right: auto;
      overflow: hidden;
      border: 2px solid rgb(2, 2, 46);
      border-radius: 500px;
-     width: 30%;
+     width: 31%;
      height: 100%;
      
 }
@@ -1889,6 +1924,7 @@ margin-right: auto;
      width: 30%;
      height: 100%;
      margin-left: 65px;
+     margin-top: 35px;
      
 }
 
@@ -1940,6 +1976,69 @@ margin-right: auto;
      color: rgb(2, 2, 45);
      opacity: 0.8;
 }
+
+
+/* =============================blog media q====
+========================================= */
+
+@media (max-width:415px){
+
+
+     #blog{
+          margin-top: 30px;
+          margin-left: 50px;
+     }
+
+     .recentblog{
+          margin-top: 40px;
+          margin-left: 50px;
+          width: 350px;
+     }
+     .recentblog p{
+          font-size: 40px;
+     }
+
+     .posts{
+          width: 100%;
+          margin-left: 1px;
+          height: 150px;
+     }
+     .post2{
+          margin-left: 10px;
+          
+     }
+     .post3{
+          margin-left: 10px;
+     }
+
+     .postline{
+          width: 100%;
+          margin-left: 1px;
+     }
+     .postline1{
+          width: 100px;
+          margin-left: 10px;
+     }
+     .postline2{
+          width: 100px;
+          margin-left: 30px;
+     }
+     .postline3{
+          width: 100px;
+          margin-left: 50px;
+     }
+     .postline1 p{
+          font-size: 20px;
+     }
+     .postline2 p{
+          font-size: 20px;
+     }
+     .postline3 p{
+          font-size: 20px;
+     }
+     
+
+}
 /* ====================================contact=================
 ============================================================================= */
 #contact{
@@ -1948,7 +2047,7 @@ margin-right: auto;
 
      
      width: 100%;
-     height: 900px;
+     height: 800px;
      background-image: url(./image/blue.jpg);
      margin-top: 250px;
      display: flex;
@@ -1966,7 +2065,7 @@ margin-right: auto;
     color: red;
     font-weight: bold;
     font-family: cursive;
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
 }
 
@@ -1980,7 +2079,7 @@ margin-right: auto;
      margin-left: 10px;
 }
 .cline4{
-     font-size: 80px;
+     font-size: 60px;
      font-weight: bold;
      color: white;
      font-family:Arial, Helvetica, sans-serif;
@@ -1994,7 +2093,7 @@ margin-right: auto;
 }
 .cline5a{
      color: white;
-     font-size: 30px;
+     font-size: 25px;
      opacity: 0.6;
 }
 .cline5b{
@@ -2002,7 +2101,7 @@ margin-right: auto;
 }
 .cline5b a{
      color: white;
-     font-size: 50px;
+     font-size: 40px;
      font-weight: bold;
      font-family: 'Courier New', Courier, monospace;
 }
@@ -2019,7 +2118,7 @@ margin-right: auto;
 }
 .cline6a{
      color: white;
-     font-size: 30px;
+     font-size: 25px;
      opacity: 0.6;
 }
 .cline6b{
@@ -2027,7 +2126,7 @@ margin-right: auto;
 }
 .cline6b a{
      color: white;
-     font-size: 50px;
+     font-size: 40px;
      font-weight: bold;
      font-family: 'Courier New', Courier, monospace;
 }
@@ -2043,24 +2142,24 @@ margin-right: auto;
 .cline7{
      background-color: rgba(255, 255, 255, 0.128);
      width: 100%;
-     height: 200px;
+     height: 180px;
      
 }
 .cline7 img{
      margin-top: 40px;
      margin-left: 70px;
-     width: 270px;
+     width: 250px;
 }
 
 .cline7 div{
      color: white;
-     font-size: 30px;
+     font-size: 25px;
      margin-left: 70px ;
 }
 .contform{
      
      width: 35%;
-     height: 70%;
+     height: 74%;
      margin-left: 50px;
      margin-top: 150px;
      background-color: white;
@@ -2071,8 +2170,8 @@ margin-right: auto;
 .contform form{
    
      width: 80%;
-     height: 68%;
-     margin-top: 60px;
+     height: 70%;
+     margin-top: 50px;
      margin-left: 60px;
 }
 
@@ -2134,7 +2233,7 @@ margin-right: auto;
 
      
      position: absolute;
-      top:8300px;
+      top:7600px;
       left: 30px;
 }
 .bline img{
@@ -2144,18 +2243,18 @@ margin-right: auto;
     
      
      position: absolute;
-     top: 8900px;
-     left: 1550px;
+     top: 8180px;
+     left: 1270px;
 }
 .brline img{
-     width: 200px;
+     width: 150px;
 }
 .threeopt2{
 
 
      position: absolute;
-     top: 8930px;
-     left: 1130px;
+     top: 8225px;
+     left: 950px;
      display: flex;
 
 }
@@ -2185,15 +2284,88 @@ margin-right: auto;
 
 /*==================media query for contact===================
 ======================================================*/
-@media (max-width:413px){
+@media (max-width:415px){
+
+     #contact{
+          margin-top: -200px;
+          display: block;
+          height: 1200px;
+     }
+
+     .cont1{
+          margin-top: -90px;
+          margin-left: -130px;
+     }
+     .cline4{
+          margin-left: -170px;
+          width: 300px;
+          font-size: 40px;
+     }
+     .cline5a{
+          margin-left: -70px;
+     }
+     .cline5b{
+          font-size: 20px;
+          margin-left: -200px;
+     }
+.cline6a{
+     margin-top: -50px;
+     margin-left: -75px;
+}
+
+.cline6b{
+     margin-left: -200px;
+     
+}
+.cline6b a{
+     font-size: 35px;
+}
+.cline7{
+     width: 380px;
+     margin-left: -220px;
+     padding: 10px;
+}
+
+.contform{
+     width: 410px;
+     height: 550px;
+     margin-top: -250px;
+     margin-left: 0.001px;
+}
+
+.contform form{
+     margin-top: 40px;
+     margin-left: 30px;
+}
+
+.contf1{
+     
+     margin-top: 30px;
+}
+.contf2{
+     
+     margin-top: 20px;
+}
 
      .threeopt2{
-          left: 10px;
+          
+          left: 100px;
+          margin-top: 240px;
      }
      .bline{
+          
           left: 10px;
+          margin-top: -280px;
+          
+     }
+     .bline img{
+          width: 100px;
      }
      .brline{
-          left: 10px;
+          left: 300px;
+          margin-top: -300px;
+     }
+     .brline img{
+          width: 100px;
      }
 }
