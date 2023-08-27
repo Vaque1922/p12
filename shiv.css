@@ -102,7 +102,7 @@ html{
      background-color: white;
      position: sticky;
      top: 0;
-     z-index: 5;
+     z-index: 6;
 }
 .labelq{
      display: block;
@@ -173,7 +173,7 @@ html{
           background-color: white;
           position: sticky;
           top: 0;
-          z-index: 5;
+          z-index: 6;
      }
      .labelq{
           display: block;
@@ -227,6 +227,77 @@ html{
      
      
      }
+     /* =====320 to 360 */
+     @media (min-width:320px) and (max-width:360px){
+
+          .navbar{
+               display: none;
+          
+          }
+          
+          .logo{
+               display: block;
+               width: 100px;
+               padding: 10px;
+          }
+          .tritomain{
+               background-color: white;
+               position: sticky;
+               top: 0;
+               z-index: 6;
+          }
+          .labelq{
+               display: block;
+               position: absolute;
+               top: 16px;
+               left: 290px;
+               font-size: 20px;
+          }
+          #image{
+               display: none;
+          }
+          #inputq:checked~.navbar{
+               display: block;
+               position: sticky;
+               top: 0;
+               z-index: 5;
+               width: 100%;
+               height: 200px;
+          }
+          #inputq:checked~.navbar li a{
+               font-size: 15px;
+               margin-left: -100px;
+               
+          }
+          .h{
+               position: absolute;
+               top: 30px;
+          }
+          .a{
+               position: absolute;
+               top: 50px;
+          }
+          .p{
+               position: absolute;
+               top: 70px;
+          }
+          .b{
+               position: absolute;
+               top: 90px;
+          }
+          .c{
+               position: absolute;
+               top: 110px;
+          }
+          #but{
+               position: absolute;
+               top: 140px;
+          }
+          
+          
+          
+          
+          }
 /*======================================HI I AM SHIVENDRA AND IMG===================
 =========================================================================================== */
 .div2{
@@ -423,6 +494,7 @@ html{
 /* ==========360 to 400px*/
 @media (min-width:360px) and (max-width:400px){
      .threeopt{
+          
          
   top: 60px;
   left: 160px;
@@ -430,6 +502,7 @@ html{
 }
 
 .quote{
+     
 
      top: 380px;
      left: 10px;
@@ -477,6 +550,71 @@ html{
      width: 310px;
      margin-left: -80px;
      margin-top: 140px;
+}
+
+
+
+}
+/* =========320 ===360 */
+
+@media (min-width:320px) and (max-width:360px){
+     .threeopt{
+          
+         
+  top: 60px;
+  left: 120px;
+  z-index: 2;
+}
+
+.quote{
+     
+
+     top: 380px;
+     left: 10px;
+}
+
+.div2{
+     position: sticky;
+     z-index: 1;
+     height: 550px;
+}
+.div3{
+     width: 150px;
+     padding-left: 20px;
+     margin-top: -100px;
+}
+
+.divh3{
+     font-size: 20px;
+}
+.divh1{
+     
+     font-size: 30px ;
+}
+
+#but2{
+     position: absolute;
+     top: 280px;
+     z-index: 1;
+}
+#but2 a{
+     font-size: 15px;
+}
+#mywrk{
+     position: absolute;
+     z-index: 1;
+     top: 320px;
+     left: 20px;
+     font-size: 15px;
+}
+.div3 p{
+     margin-top: 10px;
+}
+
+.div4 img{
+     width: 290px;
+     margin-left: -100px;
+     margin-top: 170px;
 }
 
 
@@ -581,6 +719,32 @@ html{
      .img1 img{
           width: 150px;
      }}
+     /* =====320----360=== */
+     @media (min-width:320px) and (max-width:360px){
+
+          .myclients{
+               margin-top: -40px;
+          }
+        #lin2{
+          font-size: 20px;
+        }
+        #lin1{
+          margin-top: 1px;
+          font-size: 10px;
+        }
+        #lin3{
+          margin-top: 1px;
+     
+          font-size: 10px;
+        }
+          .divclients{
+               display: block;
+               margin-top: 20px;
+               margin-left: 10px;
+          }
+          .img1 img{
+               width: 150px;
+          }}
 
 /* ===============================================DIV MY SKILL==========================================
 ========================================================================================================= */
@@ -800,7 +964,7 @@ html{
           margin-top: 130px;
      }
      .divi3{
-          margin-left:-90px ;
+          margin-left: -915px;
           margin-top: 130px;
      }
      
@@ -827,17 +991,75 @@ html{
      }
      .divl1{
           margin-left: -180px;
-          width: 400px;
-          border-right: none;
+          width: 360px;
+       border-right: none;
      }
      .divl2{
           margin-left: -180px;
-          width: 400px;
+          width: 360px;
           border-right: none;
      }
      .divl3{
           margin-left: -180px;
-          width: 400px;
+          width: 360px;
+          border-right: none;
+     }
+     
+     }
+     
+/* =====320===360== */
+@media (min-width:320px) and (max-width:360px){
+
+     .divmyskill{
+          height: 2260px;
+     }
+     #dsii1{
+          margin-left: -180px;
+     }
+     
+     .divi2{
+          margin-left: -530px;
+          margin-top: 130px;
+     }
+     .divi3{
+          margin-left: -935px;
+          margin-top: 130px;
+     }
+     
+     .divsk{
+          display: block;
+     }
+     #but4{
+          margin-left: -185px;
+     }
+     #but5{
+       position: absolute;
+       left: -70px;
+       margin-top: 190px;
+     
+     }
+     #but6{
+          position: absolute;
+          left: -95px;
+          margin-top: 365px;
+     }
+     
+     .part{
+          display: block;
+     }
+     .divl1{
+          margin-left: -180px;
+          width: 360px;
+       border-right: none;
+     }
+     .divl2{
+          margin-left: -180px;
+          width: 360px;
+          border-right: none;
+     }
+     .divl3{
+          margin-left: -180px;
+          width: 360px;
           border-right: none;
      }
      
@@ -1010,11 +1232,11 @@ html{
           margin-top: 150px;
      }
      .ms{
-          margin-left: 90px;
+          margin-left: 50px;
      }
      .eds{
-          width: 370px;
-          margin-left: 40px;
+          width: 360px;
+          margin-left: 10px;
      }
      .eds div{
           margin-left: 30px;
@@ -1036,15 +1258,71 @@ html{
           padding: 7px;
      }
      .sk{
+          
+
           margin-top: 500px;
           left: -5px;
      }
      .uline{
+          
+
           margin-top: 540px;
           left: 150px;
      }
 }
+/* =====320===360=== */
+@media (min-width:320px) and (max-width:360px){
 
+  
+  
+     .diveds1{
+          margin-left: -190px;
+          width: 100%;
+          height: 500px;
+          margin-top: 150px;
+     }
+     .ms{
+          margin-left: 50px;
+     }
+     .ms div{
+          font-size: 15px;
+     }
+     .eds{
+          font-size: 40px;
+          margin-left: 30px;
+     }
+     .eds div{
+          margin-left: 20px;
+     }
+     .diveds1 pre{
+       font-size: 15px;
+       margin-left: -30px;
+     }
+     .divhcj{
+          margin-top: 200px;
+          width: 100%;
+          margin-left: 2px;
+     }
+     .divhcj div{
+          margin-left: -110px;
+     }
+     .divhcj div pre span{
+          font-size: 16px;
+          padding: 7px;
+     }
+     .sk{
+          
+
+          margin-top: 500px;
+          left: -5px;
+     }
+     .uline{
+          
+
+          margin-top: 540px;
+          left: 150px;
+     }
+}
 /* ==================================DOS=======================================
 ============================================================================== */
 .divdos{
@@ -1204,6 +1482,53 @@ margin-top: -17px;
         position: absolute;
         left: -30px;
         margin-top: 205px;
+     }
+     #d3 pre{
+        font-size: 25px;
+     }
+   }
+   /* =320===360 */
+   @media (min-width:320px) and (max-width:360px){
+
+     #down1{
+        position: absolute;
+        left: 10px;
+        margin-top: -70px;
+        font-size: 50px;
+     }
+     #down2{
+        position: absolute;
+        left: -230px;
+        margin-top: 70px;
+        font-size: 50px;
+     }
+     #down3{
+        position: absolute;
+        left: -265px;
+        margin-top: 205px;
+        font-size: 50px;
+     }
+   
+     #d1{
+        position: absolute;
+        left: 10px;
+        margin-top: -85px;
+     }
+     #d1 pre{
+        font-size: 25px;
+     }
+     #d2{
+        position: absolute;
+        margin-left: -110px;
+        margin-top: 50px;
+     }
+     #d2 pre{
+        font-size: 25px;
+     }
+     #d3{
+        position: absolute;
+        margin-left: -110px;
+        margin-top: 190px;
      }
      #d3 pre{
         font-size: 25px;
@@ -1439,6 +1764,8 @@ margin-top: -17px;
      }
      
      .rightdot{
+          
+
                left: -1px;
                margin-top: 370px;
           }
@@ -1446,13 +1773,76 @@ margin-top: -17px;
                width: 100px;
           }
           .leftdot{
+     
+
                margin-top: 1350px;
-               left: 290px;
+               left: 250px;
           }
           .leftdot img{
                width: 100px;
           }
      }
+     /* ====320======360=== */
+     @media (min-width:320px) and (max-width:360px){
+
+          .img3 img{
+               width: 350px;
+          }
+          .img3{
+               margin-top: -50px;
+               margin-left: -10px;
+          }
+          
+          .about{
+               margin-top: 400px;
+               margin-left: -190px;
+          }
+          .abt1{
+               margin-left: 60px;
+               width: 300px;
+          }
+          .abt2{
+               margin-left: 185px;
+          }
+          .abt2 pre{
+               font-size: 25px;
+          }
+          .abt3{
+               margin-top: 80px;
+               margin-left: 60px;
+          }
+          .abt3 pre{
+               font-size: 13px;
+          }
+          .abt4{
+               position: absolute;
+               margin-top: 10px;
+               left: 130px;
+          }
+          .abt4 span{
+               font-size: 15px;
+               padding: 10px;
+          }
+          
+          .rightdot{
+               
+     
+                    left: -1px;
+                    margin-top: 370px;
+               }
+               .rightdot img{
+                    width: 100px;
+               }
+               .leftdot{
+          
+     
+                    margin-top: 1350px;
+                    left: 200px;
+               }
+               .leftdot img{
+                    width: 100px;
+               }
+          }
 /* ======================================================shivendra patel tws=====================================
 =================================================================================================================== */
 .taws{
@@ -1583,14 +1973,14 @@ margin-top: -17px;
      }
      .taws1{
           margin-top: 20px;
-          margin-left: -100px;
+          margin-left: -110px;
      }
           .taws1 img{
-               width: 350px;
+               width: 300px;
           }
      
           .taws2{
-               margin-left: -80px;
+               margin-left: -60px;
                margin-top: 50px;
           }
           .tt1{
@@ -1603,7 +1993,7 @@ margin-top: -17px;
      
           }
           .tt2{
-     
+               margin-left: 5px;
                width: 350px;
      
           }
@@ -1616,6 +2006,46 @@ margin-top: -17px;
                width: 300px;
           }
      }
+     /* ====320===360 */
+     @media (min-width:320px) and (max-width:360px){
+          .taws{
+               height: 1200px;
+          }
+          .taws1{
+               margin-top: 20px;
+               margin-left: -110px;
+          }
+               .taws1 img{
+                    width: 260px;
+               }
+          
+               .taws2{
+                    margin-left: -60px;
+                    margin-top: 50px;
+               }
+               .tt1{
+                    width: 350px;
+                    margin-top: 450px;
+                    margin-left: 20px;
+               }
+               .tt1 p{
+                    font-size: 23px;
+          
+               }
+               .tt2{
+                    margin-left: 10px;
+                    width: 330px;
+          
+               }
+          
+               .tt2 p{
+                    font-size: 16px;
+               }
+          
+               .tt3{
+                    width: 300px;
+               }
+          }
 /* ============================================================portfa=================
 ======================================================================================== */
 
@@ -1764,7 +2194,22 @@ margin-top: -17px;
      
      
      }
+/* ====320==360=== */
+@media (min-width:320px) and (max-width:360px){
 
+     #portfa{
+          width: 100%px;
+          height: 150px;
+     }
+     
+     .portfb{
+          width: 100%;
+          height: 156px;
+     
+     }
+     
+     
+     }
 
 /* ========================================================faq==========================
 ============================================================================================= */
@@ -1824,11 +2269,22 @@ margin-top: -17px;
 /* =========360 to 400 */
 @media (min-width:360px) and (max-width:400px){
      .faq{
-          margin-left: 50px;
+          margin-left: 25px;
      }
      .few{
           margin-left: 20px;
-          font-size: 40px;
+          font-size: 35px;
+     }
+     
+}
+/* =====320====360== */
+@media (min-width:320px) and (max-width:360px){
+     .faq{
+          margin-left: 10px;
+     }
+     .few{
+          margin-left: 20px;
+          font-size: 30px;
      }
      
 }
@@ -2250,7 +2706,93 @@ margin-top: -17px;
      }
   }
 
-  
+  /* ========320 to 360 */
+@media (min-width:320px) and (max-width:360px){
+
+     .bluebox1{
+          width: 310px;
+          height: 50px;
+     }
+     .bluebox1 p{
+          font-size: 20px;
+          padding: 10px;
+     }
+     .bluebox1a{
+          width: 310px;
+          height: 140px;
+     }
+     .bluebox1a p{
+          font-size: 20px;
+          padding: 10px;
+     }
+
+     .bluebox2{
+          width: 310px;
+          height: 75px;
+     }
+     .bluebox2 p{
+          font-size: 20px;
+          padding: 10px;
+     }
+     .bluebox2a{
+          width: 310px;
+          height: 140px;
+     }
+     .bluebox2a p{
+          font-size: 20px;
+          padding: 10px;
+     }
+
+     .bluebox3{
+          width: 310px;
+          height: 75px;
+     }
+     .bluebox3 p{
+          font-size: 19px;
+          padding: 10px;
+     }
+     .bluebox3a{
+          width: 310px;
+          height: 140px;
+     }
+     .bluebox3a p{
+          font-size: 20px;
+          padding: 10px;
+     }
+     .bluebox4{
+          width: 310px;
+          height: 75px;
+     }
+     .bluebox4 p{
+          font-size: 19px;
+          padding: 10px;
+     }
+     .bluebox4a{
+          width: 310px;
+          height: 140px;
+     }
+     .bluebox4a p{
+          font-size: 20px;
+          padding: 10px;
+     }
+
+     .bluebox5{
+          width: 310px;
+          height: 75px;
+     }
+     .bluebox5 p{
+          font-size: 19px;
+          padding: 10px;
+     }
+     .bluebox5a{
+          width: 310px;
+          height: 140px;
+     }
+     .bluebox5a p{
+          font-size: 20px;
+          padding: 10px;
+     }
+  }
   
 
  /* ==========================================================freelance================
@@ -2306,7 +2848,7 @@ margin-right: auto;
 @media (min-width:400px) and (max-width:440px){
 
      .freelance{
-          margin-top: -300px;
+          margin-top: -100px;
           width: 100%;
           height: 200px;
      }
@@ -2329,7 +2871,7 @@ margin-right: auto;
 @media (min-width:360px) and (max-width:400px){
 
      .freelance{
-          margin-top: -300px;
+          margin-top: -150px;
           width: 100%;
           height: 200px;
      }
@@ -2337,17 +2879,38 @@ margin-right: auto;
           font-size: 30px;
      }
      .imm{
-          margin-left: 90px;
+          margin-left: 80px;
           width: 100%;
           margin-top: -30px;
      }
      .imm span{
           padding: 8px;
-          margin-left: 50px;
+          margin-left: 45px;
           font-size: 10px;
      }
 }
+/* ============320 to 360px */
+@media (min-width:320px) and (max-width:360px){
 
+     .freelance{
+          margin-top: -150px;
+          width: 100%;
+          height: 200px;
+     }
+     .imm p{
+          font-size: 30px;
+     }
+     .imm{
+          margin-left: 50px;
+          width: 100%;
+          margin-top: -30px;
+     }
+     .imm span{
+          padding: 8px;
+          margin-left: 45px;
+          font-size: 10px;
+     }
+}
 /* ========================================================blog=================
 ================================================================================= */
 
@@ -2651,8 +3214,9 @@ margin-right: auto;
           margin-left: 30px;
      }
      .postline3{
+          margin-top: 15px;
           width: 100px;
-          margin-left: 50px;
+          margin-left: 40px;
      }
      .postline1 p{
           font-size: 20px;
@@ -2662,6 +3226,7 @@ margin-right: auto;
      }
      .postline3 p{
           font-size: 20px;
+          margin-left: -15px;
      }
      .postline1 pre{
           font-size: 15px;
@@ -2675,9 +3240,86 @@ margin-right: auto;
      }
      .postline3 pre{
           font-size: 15px;
-          margin-left: -5px;
+          margin-left: -10px;
      }
      
+     
+
+}
+ /* ========320 to 360 */
+@media (min-width:320px) and (max-width:460px){
+
+
+     #blog{
+          margin-top: 30px;
+          margin-left: 50px;
+     }
+
+     .recentblog{
+          margin-top: 40px;
+          margin-left: 20px;
+          width: 320px;
+     }
+     .recentblog p{
+          font-size: 30px;
+     }
+
+     .posts{
+          width: 100%;
+          margin-left: 1px;
+          height: 150px;
+     }
+     .post2{
+          margin-left: 10px;
+          
+     }
+     .post3{
+          margin-left: 10px;
+     }
+
+     .postline{
+          width: 100%;
+          margin-left: 1px;
+     }
+     .postline1{
+          width: 100px;
+          margin-left: 10px;
+     }
+     .postline2{
+          width: 100px;
+          margin-left: 30px;
+     }
+     .postline3{
+          margin-top: 15px;
+          width: 100px;
+          margin-left: 40px;
+     }
+     .postline1 p{
+          font-size: 20px;
+     }
+     .postline2 p{
+          font-size: 20px;
+     }
+     .postline3 p{
+          font-size: 20px;
+          margin-left: -35px;
+     }
+     .postline1 pre{
+          font-size: 15px;
+          margin-left: -5px;
+
+     }
+     .postline2 pre{
+          font-size: 15px;
+          margin-left: -5px;
+
+     }
+     .postline3 pre{
+          font-size: 15px;
+          margin-left: -35px;
+     }
+     
+
      
 
 }
@@ -2971,7 +3613,7 @@ margin-right: auto;
 
 .contform{
      width: 100%;
-     height: 550px;
+     height: 600px;
      margin-top: -250px;
      margin-left: 0.001px;
 }
@@ -2993,7 +3635,7 @@ margin-right: auto;
      .threeopt2{
           
           left: 100px;
-          margin-top: 220px;
+          margin-top: 440px;
      }
      .bline{
           
@@ -3019,7 +3661,7 @@ margin-right: auto;
      #contact{
           margin-top: -200px;
           display: block;
-          height: 1200px;
+          height: 1250px;
      }
 
      .cont1{
@@ -3036,7 +3678,10 @@ margin-right: auto;
      }
      .cline5b{
           font-size: 20px;
-          margin-left: -200px;
+          margin-left: -180px;
+     }
+     .cline5b a{
+          font-size: 30px;
      }
 .cline6a{
      margin-top: -50px;
@@ -3048,17 +3693,17 @@ margin-right: auto;
      
 }
 .cline6b a{
-     font-size: 35px;
+     font-size: 30px;
 }
 .cline7{
-     width: 380px;
+     width: 360px;
      margin-left: -220px;
      padding: 10px;
 }
 
 .contform{
      width: 100%;
-     height: 550px;
+     height: 620px;
      margin-top: -250px;
      margin-left: 0.001px;
 }
@@ -3079,21 +3724,116 @@ margin-right: auto;
 
      .threeopt2{
           
-          left: 100px;
-          margin-top: 220px;
+          
+          left: 80px;
+          margin-top: 420px;
      }
      .bline{
+     
           
           left: 10px;
-          margin-top: -280px;
+          margin-top: -130px;
           
      }
      .bline img{
           width: 100px;
      }
      .brline{
-          left: 300px;
-          margin-top: -300px;
+          
+          left: 250px;
+          margin-top: -130px;
+     }
+     .brline img{
+          width: 100px;
+     }
+}
+/* ==320=====360 */
+@media (min-width:320px) and (max-width:360px){
+
+     #contact{
+          margin-top: -200px;
+          display: block;
+          height: 1250px;
+     }
+
+     .cont1{
+          margin-top: -90px;
+          margin-left: -160px;
+     }
+     .cline4{
+          margin-left: -200px;
+          width: 300px;
+          font-size: 40px;
+     }
+     .cline5a{
+          margin-left: -90px;
+     }
+     .cline5b{
+          font-size: 20px;
+          margin-left: -200px;
+     }
+     .cline5b a{
+          font-size: 30px;
+     }
+.cline6a{
+     margin-top: -50px;
+     margin-left: -95px;
+}
+
+.cline6b{
+     margin-left: -220px;
+     
+}
+.cline6b a{
+     font-size: 30px;
+}
+.cline7{
+     width: 360px;
+     margin-left: -250px;
+     padding: 10px;
+}
+
+.contform{
+     width: 100%;
+     height: 620px;
+     margin-top: -250px;
+     margin-left: 0.001px;
+}
+
+.contform form{
+     margin-top: 40px;
+     margin-left: 30px;
+}
+
+.contf1{
+     
+     margin-top: 30px;
+}
+.contf2{
+     
+     margin-top: 20px;
+}
+
+     .threeopt2{
+          
+          
+          left: 60px;
+          margin-top: 420px;
+     }
+     .bline{
+     
+          
+          left: 10px;
+          margin-top: -130px;
+          
+     }
+     .bline img{
+          width: 100px;
+     }
+     .brline{
+          
+          left: 200px;
+          margin-top: -130px;
      }
      .brline img{
           width: 100px;
