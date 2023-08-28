@@ -298,6 +298,73 @@ html{
           
           
           }
+          /* =========440=480 */
+          @media (min-width:440px) and (max-width:480px){
+
+               .navbar{
+                    display: none;
+               
+               }
+               
+               .logo{
+                    display: block;
+                    width: 100px;
+                    padding: 10px;
+               }
+               .tritomain{
+                    background-color: white;
+                    position: sticky;
+                    top: 0;
+                    z-index: 6;
+               }
+               .labelq{
+                    display: block;
+                    position: absolute;
+                    top: 16px;
+                    left: 410px;
+                    font-size: 20px;
+               }
+               #image{
+                    display: none;
+               }
+               #inputq:checked~.navbar{
+                    display: block;
+                    position: sticky;
+                    top: 0;
+                    z-index: 5;
+                    width: 100%;
+                    height: 200px;
+               }
+               #inputq:checked~.navbar li a{
+                    font-size: 15px;
+                    margin-left: -100px;
+                    
+               }
+               .h{
+                    position: absolute;
+                    top: 30px;
+               }
+               .a{
+                    position: absolute;
+                    top: 50px;
+               }
+               .p{
+                    position: absolute;
+                    top: 70px;
+               }
+               .b{
+                    position: absolute;
+                    top: 90px;
+               }
+               .c{
+                    position: absolute;
+                    top: 110px;
+               }
+               #but{
+                    position: absolute;
+                    top: 140px;
+               }
+          }
 /*======================================HI I AM SHIVENDRA AND IMG===================
 =========================================================================================== */
 .div2{
@@ -616,6 +683,67 @@ html{
      margin-left: -100px;
      margin-top: 170px;
 }
+}
+
+
+/* =====440===480 */
+@media (min-width:440px) and (max-width:480px){
+     .threeopt{
+         
+  top: 60px;
+  left: 220px;
+  z-index: 2;
+}
+
+.quote{
+
+     top: 380px;
+     left: 10px;
+}
+
+.div2{
+     position: sticky;
+     z-index: 1;
+     height: 550px;
+}
+.div3{
+     width: 150px;
+     padding-left: 20px;
+     margin-top: -100px;
+}
+
+.divh3{
+     font-size: 20px;
+}
+.divh1{
+     
+     font-size: 30px ;
+}
+
+#but2{
+     position: absolute;
+     top: 280px;
+     z-index: 1;
+}
+#but2 a{
+     font-size: 15px;
+}
+#mywrk{
+     position: absolute;
+     z-index: 1;
+     top: 320px;
+     left: 20px;
+     font-size: 15px;
+}
+.div3 p{
+     margin-top: 10px;
+}
+
+.div4 img{
+     width: 310px;
+     margin-left: -10px;
+     margin-top: 140px;
+}
 
 
 
@@ -745,6 +873,20 @@ html{
           .img1 img{
                width: 150px;
           }}
+          /* ===========440=480 */
+          @media (min-width:440px) and (max-width:480px){
+
+               .myclients{
+                    margin-top: -40px;
+               }
+               .divclients{
+                    display: block;
+                    margin-top: 20px;
+                    margin-left: 30px;
+               }
+               .img1 img{
+                    width: 200px;
+               }}
 
 /* ===============================================DIV MY SKILL==========================================
 ========================================================================================================= */
@@ -907,7 +1049,7 @@ html{
      margin-top: 130px;
 }
 .divi3{
-     margin-left:-90px ;
+     margin-left:-910px ;
      margin-top: 130px;
 }
 
@@ -992,6 +1134,7 @@ html{
      .divl1{
           margin-left: -180px;
           width: 360px;
+          margin-top: -40px;
        border-right: none;
      }
      .divl2{
@@ -1050,6 +1193,7 @@ html{
      .divl1{
           margin-left: -180px;
           width: 360px;
+          margin-top: -45px;
        border-right: none;
      }
      .divl2{
@@ -1065,7 +1209,64 @@ html{
      
      }
      
+/* ========440 =480 */
+@media (min-width:440px) and (max-width:480px){
 
+     .divmyskill{
+          height: 2260px;
+     }
+     #dsii1{
+          margin-left: -160px;
+     }
+     
+     .divi2{
+          margin-left: -510px;
+          margin-top: 130px;
+     }
+     .divi3{
+          margin-left:-910px ;
+          margin-top: 130px;
+     }
+     
+     .divsk{
+          display: block;
+     }
+     #but4{
+          margin-left: -165px;
+     }
+     #but5{
+       position: absolute;
+       left: -50px;
+       margin-top: 190px;
+     
+     }
+     #but6{
+          position: absolute;
+          left: -75px;
+          margin-top: 365px;
+     }
+     
+     .part{
+          display: block;
+     }
+     .divl1{
+          margin-top: -40px;
+          margin-left: -180px;
+          width: 400px;
+          border-right: none;
+     }
+     .divl2{
+          margin-left: -180px;
+          width: 400px;
+          border-right: none;
+     }
+     .divl3{
+          margin-left: -180px;
+          width: 400px;
+          border-right: none;
+     }
+     
+     }
 /* ====================================================DIVEDS-=============================================
 ============================================================================================================ */
 
@@ -1323,6 +1524,53 @@ html{
           left: 150px;
      }
 }
+
+/* ========440 =480 */
+@media (min-width:440px) and (max-width:480px){
+
+  
+  
+     .diveds1{
+          margin-left: -190px;
+          width: 100%;
+          height: 500px;
+          margin-top: 150px;
+     }
+     .ms{
+          margin-left: 90px;
+     }
+     .eds{
+          width: 370px;
+          margin-left: 40px;
+     }
+     .eds div{
+          margin-left: 30px;
+     }
+     .diveds1 pre{
+       font-size: 20px;
+       margin-left: -30px;
+     }
+     .divhcj{
+          margin-top: 200px;
+          width: 100%;
+          margin-left: 2px;
+     }
+     .divhcj div{
+          margin-left: -80px;
+     }
+     .divhcj div pre span{
+          font-size: 16px;
+          padding: 7px;
+     }
+     .sk{
+          margin-top: 500px;
+          left: -5px;
+     }
+     .uline{
+          margin-top: 540px;
+          left: 150px;
+     }
+}
 /* ==================================DOS=======================================
 ============================================================================== */
 .divdos{
@@ -1529,6 +1777,53 @@ margin-top: -17px;
         position: absolute;
         margin-left: -110px;
         margin-top: 190px;
+     }
+     #d3 pre{
+        font-size: 25px;
+     }
+   }
+   /* ====440=======480 */
+   @media (min-width:440px) and (max-width:480px){
+
+     #down1{
+        position: absolute;
+        left: 10px;
+        margin-top: -70px;
+        font-size: 70px;
+     }
+     #down2{
+        position: absolute;
+        left: -230px;
+        margin-top: 70px;
+        font-size: 70px;
+     }
+     #down3{
+        position: absolute;
+        left: -265px;
+        margin-top: 205px;
+        font-size: 70px;
+     }
+   
+     #d1{
+        position: absolute;
+        left: 50px;
+        margin-top: -70px;
+     }
+     #d1 pre{
+        font-size: 25px;
+     }
+     #d2{
+        position: absolute;
+        left: 10px;
+        margin-top: 70px;
+     }
+     #d2 pre{
+        font-size: 25px;
+     }
+     #d3{
+        position: absolute;
+        left: -30px;
+        margin-top: 205px;
      }
      #d3 pre{
         font-size: 25px;
@@ -1843,6 +2138,64 @@ margin-top: -17px;
                     width: 100px;
                }
           }
+          /* ===440======480 */
+          @media (min-width:440px) and (max-width:480px){
+
+               .img3 img{
+                    width: 350px;
+               }
+               .img3{
+                    margin-top: -50px;
+                    margin-left: 30px;
+               }
+               
+               .about{
+                    margin-top: 400px;
+                    margin-left: -190px;
+               }
+               .abt1{
+                    margin-left: 60px;
+                    width: 300px;
+               }
+               .abt2{
+                    margin-left: 185px;
+               }
+               .abt2 pre{
+                    font-size: 25px;
+               }
+               .abt3{
+                    margin-top: 80px;
+                    margin-left: 60px;
+               }
+               .abt3 pre{
+                    font-size: 13.5px;
+               }
+               .abt4{
+                    position: absolute;
+                    margin-top: 10px;
+                    left: 170px;
+               }
+               .abt4 span{
+                    font-size: 15px;
+                    padding: 10px;
+               }
+               
+               .rightdot{
+                         left: -1px;
+                         margin-top: 370px;
+                    }
+                    .rightdot img{
+                         width: 100px;
+                    }
+                    .leftdot{
+                         margin-top: 1350px;
+                         left: 290px;
+                    }
+                    .leftdot img{
+                         width: 100px;
+                    }
+               }
+               
 /* ======================================================shivendra patel tws=====================================
 =================================================================================================================== */
 .taws{
@@ -2046,6 +2399,46 @@ margin-top: -17px;
                     width: 300px;
                }
           }
+          /* ====440==========480 */
+          @media (min-width:440px) and (max-width:480px){
+               .taws{
+                    height: 1200px;
+               }
+               .taws1{
+                    margin-top: 20px;
+                    margin-left: -100px;
+               }
+                    .taws1 img{
+                         width: 350px;
+                    }
+               
+                    .taws2{
+                         margin-left: -80px;
+                         margin-top: 50px;
+                    }
+                    .tt1{
+                         width: 350px;
+                         margin-top: 450px;
+                         margin-left: 20px;
+                    }
+                    .tt1 p{
+                         font-size: 23px;
+               
+                    }
+                    .tt2{
+               
+                         width: 350px;
+               
+                    }
+               
+                    .tt2 p{
+                         font-size: 20px;
+                    }
+               
+                    .tt3{
+                         width: 300px;
+                    }
+               }
 /* ============================================================portfa=================
 ======================================================================================== */
 
@@ -2210,6 +2603,22 @@ margin-top: -17px;
      
      
      }
+     /* =====440=========480 */
+     @media (min-width:440px) and (max-width:480px){
+
+          #portfa{
+               width: 100%px;
+               height: 150px;
+          }
+          
+          .portfb{
+               width: 100%;
+               height: 156px;
+          
+          }
+          
+          
+          }
 
 /* ========================================================faq==========================
 ============================================================================================= */
@@ -2285,6 +2694,17 @@ margin-top: -17px;
      .few{
           margin-left: 20px;
           font-size: 30px;
+     }
+     
+}
+/* ======440======48-0== */
+@media (min-width:440px) and (max-width:480px){
+     .faq{
+          margin-left: 50px;
+     }
+     .few{
+          margin-left: 20px;
+          font-size: 40px;
      }
      
 }
@@ -2793,7 +3213,93 @@ margin-top: -17px;
           padding: 10px;
      }
   }
-  
+  /* =========440========480 */
+  @media (min-width:440px) and (max-width:480px){
+
+     .bluebox1{
+          width: 350px;
+          height: 50px;
+     }
+     .bluebox1 p{
+          font-size: 20px;
+          padding: 10px;
+     }
+     .bluebox1a{
+          width: 350px;
+          height: 140px;
+     }
+     .bluebox1a p{
+          font-size: 20px;
+          padding: 10px;
+     }
+
+     .bluebox2{
+          width: 350px;
+          height: 75px;
+     }
+     .bluebox2 p{
+          font-size: 20px;
+          padding: 10px;
+     }
+     .bluebox2a{
+          width: 350px;
+          height: 140px;
+     }
+     .bluebox2a p{
+          font-size: 20px;
+          padding: 10px;
+     }
+
+     .bluebox3{
+          width: 350px;
+          height: 75px;
+     }
+     .bluebox3 p{
+          font-size: 19px;
+          padding: 10px;
+     }
+     .bluebox3a{
+          width: 350px;
+          height: 140px;
+     }
+     .bluebox3a p{
+          font-size: 20px;
+          padding: 10px;
+     }
+     .bluebox4{
+          width: 350px;
+          height: 75px;
+     }
+     .bluebox4 p{
+          font-size: 19px;
+          padding: 10px;
+     }
+     .bluebox4a{
+          width: 350px;
+          height: 140px;
+     }
+     .bluebox4a p{
+          font-size: 20px;
+          padding: 10px;
+     }
+
+     .bluebox5{
+          width: 350px;
+          height: 75px;
+     }
+     .bluebox5 p{
+          font-size: 19px;
+          padding: 10px;
+     }
+     .bluebox5a{
+          width: 350px;
+          height: 140px;
+     }
+     .bluebox5a p{
+          font-size: 20px;
+          padding: 10px;
+     }
+  }
 
  /* ==========================================================freelance================
  ========================================================================================= */
@@ -2908,6 +3414,28 @@ margin-right: auto;
      .imm span{
           padding: 8px;
           margin-left: 45px;
+          font-size: 10px;
+     }
+}
+/* =====440==========480 */
+@media (min-width:440px) and (max-width:480px){
+
+     .freelance{
+          margin-top: -100px;
+          width: 100%;
+          height: 200px;
+     }
+     .imm p{
+          font-size: 30px;
+     }
+     .imm{
+          margin-left: 90px;
+          width: 100%;
+          margin-top: -30px;
+     }
+     .imm span{
+          padding: 8px;
+          margin-left: 50px;
           font-size: 10px;
      }
 }
@@ -3140,8 +3668,9 @@ margin-right: auto;
           margin-left: 30px;
      }
      .postline3{
-          width: 100px;
-          margin-left: 50px;
+     
+          width: 80px;
+          margin-left: 70px;
      }
      .postline1 p{
           font-size: 20px;
@@ -3151,6 +3680,9 @@ margin-right: auto;
      }
      .postline3 p{
           font-size: 20px;
+          width: 100%;
+          height: 100%;
+          padding-left: 30px;
      }
      .postline1 pre{
           font-size: 15px;
@@ -3164,7 +3696,7 @@ margin-right: auto;
      }
      .postline3 pre{
           font-size: 15px;
-          margin-left: -5px;
+          padding-left: 25px;
      }
      
      
@@ -3214,9 +3746,10 @@ margin-right: auto;
           margin-left: 30px;
      }
      .postline3{
+          
           margin-top: 15px;
-          width: 100px;
-          margin-left: 40px;
+          width: 80px;
+          
      }
      .postline1 p{
           font-size: 20px;
@@ -3226,7 +3759,9 @@ margin-right: auto;
      }
      .postline3 p{
           font-size: 20px;
-          margin-left: -15px;
+          width: 100%;
+          height: 100%;
+          padding-left: 20px ;
      }
      .postline1 pre{
           font-size: 15px;
@@ -3240,7 +3775,8 @@ margin-right: auto;
      }
      .postline3 pre{
           font-size: 15px;
-          margin-left: -10px;
+          margin-left: 10px;
+          padding-left: 20px;
      }
      
      
@@ -3286,23 +3822,28 @@ margin-right: auto;
           margin-left: 10px;
      }
      .postline2{
-          width: 100px;
+          width: 80px;
           margin-left: 30px;
      }
      .postline3{
-          margin-top: 15px;
-          width: 100px;
-          margin-left: 40px;
+     margin-top: -2px;
+          width: 80px;
      }
+
      .postline1 p{
           font-size: 20px;
      }
      .postline2 p{
           font-size: 20px;
+          width: 100%;
+          height: 100%;
+          margin-left: -15px;
      }
      .postline3 p{
           font-size: 20px;
-          margin-left: -35px;
+          width: 100%;
+          height: 100%;
+          margin-left: -50px;
      }
      .postline1 pre{
           font-size: 15px;
@@ -3319,7 +3860,87 @@ margin-right: auto;
           margin-left: -35px;
      }
      
+     #hr3{
+          margin-left: -40px;
+     }
+     
 
+}
+/* =440-=====480=-== */
+@media (min-width:440px) and (max-width:480px){
+
+
+     #blog{
+          margin-top: 30px;
+          margin-left: 50px;
+     }
+
+     .recentblog{
+          margin-top: 40px;
+          margin-left: 50px;
+          width: 350px;
+     }
+     .recentblog p{
+          font-size: 40px;
+     }
+
+     .posts{
+          width: 100%;
+          margin-left: 1px;
+          height: 150px;
+     }
+     .post2{
+          margin-left: 10px;
+          
+     }
+     .post3{
+          margin-left: 10px;
+     }
+
+     .postline{
+          width: 100%;
+          margin-left: 1px;
+     }
+     .postline1{
+          width: 100px;
+          margin-left: 10px;
+     }
+     .postline2{
+          width: 100px;
+          margin-left: 30px;
+     }
+     .postline3{
+     
+          width: 80px;
+          margin-left: 70px;
+     }
+     .postline1 p{
+          font-size: 20px;
+     }
+     .postline2 p{
+          font-size: 20px;
+     }
+     .postline3 p{
+          font-size: 20px;
+          width: 100%;
+          height: 100%;
+          padding-left: 30px;
+     }
+     .postline1 pre{
+          font-size: 15px;
+          margin-left: -5px;
+
+     }
+     .postline2 pre{
+          font-size: 15px;
+          margin-left: -5px;
+
+     }
+     .postline3 pre{
+          font-size: 15px;
+          padding-left: 25px;
+     }
+     
      
 
 }
@@ -3640,7 +4261,7 @@ margin-right: auto;
      .bline{
           
           left: 10px;
-          margin-top: -280px;
+          margin-top: -80px;
           
      }
      .bline img{
@@ -3648,7 +4269,7 @@ margin-right: auto;
      }
      .brline{
           left: 300px;
-          margin-top: -300px;
+          margin-top: -100px;
      }
      .brline img{
           width: 100px;
@@ -3839,4 +4460,89 @@ margin-right: auto;
           width: 100px;
      }
 }
+/* ==========440===========480 */
+@media (min-width:440px) and (max-width:480px){
 
+     #contact{
+          margin-top: -200px;
+          display: block;
+          height: 1300px;
+     }
+
+     .cont1{
+          margin-top: -90px;
+          margin-left: -130px;
+     }
+     .cline4{
+          margin-left: -170px;
+          width: 300px;
+          font-size: 40px;
+     }
+     .cline5a{
+          margin-left: -70px;
+     }
+     .cline5b{
+          font-size: 20px;
+          margin-left: -200px;
+     }
+.cline6a{
+     margin-top: -50px;
+     margin-left: -75px;
+}
+
+.cline6b{
+     margin-left: -200px;
+     
+}
+.cline6b a{
+     font-size: 35px;
+}
+.cline7{
+     width: 380px;
+     margin-left: -220px;
+     padding: 10px;
+}
+
+.contform{
+     width: 100%;
+     height: 600px;
+     margin-top: -250px;
+     margin-left: 0.001px;
+}
+
+.contform form{
+     margin-top: 40px;
+     margin-left: 30px;
+}
+
+.contf1{
+     
+     margin-top: 30px;
+}
+.contf2{
+     
+     margin-top: 20px;
+}
+
+     .threeopt2{
+          
+          left: 100px;
+          margin-top: 520px;
+     }
+     .bline{
+          
+          left: 10px;
+          margin-top: -80px;
+          
+     }
+     .bline img{
+          width: 100px;
+     }
+     .brline{
+          left: 300px;
+          margin-top: -100px;
+     }
+     .brline img{
+          width: 100px;
+     }
+}
